@@ -1,0 +1,620 @@
+body{
+	margin: 0;
+	padding:0;
+	font-family: Exo;
+	background: url(../images/Login-page.gif);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.body1{
+	margin: 0;
+	padding:0;
+	background: url(../images/Main-Website.gif);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.body2{
+	margin: 0;
+	padding:0;
+	background: url(../images/Student-Details.gif);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+/* header area start */
+.containe2 p {
+	border: none;
+	color: red;
+	margin: 10px 0px -7px 0px;
+	padding: 8px 15px;
+	width: 190px;
+	font-size: 12px;
+}
+.header-text-area b{
+	display: block;
+	color: #00e4ff;
+	text-align: center;
+	font-size: 35px;
+	padding: 20px;
+}
+.menu {
+    position: absolute;
+    top: 4px;
+    left: 20%;
+    background: url(../images/Menu-bar.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 805px;
+}
+.menu ul {
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	display: block;
+	margin: -4px auto;
+	width: 570px;
+}
+.menu ul li{
+	padding: 10px;
+	margin: 0px;
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	padding: 9px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+	color: #fff;
+}
+.menu ul li a:hover{
+	color: #f7f050;
+}
+.active {
+	color: #f7f050 !important;
+	background: url(../images/active.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+/* header area  end */
+
+/* header-bottom area  start */
+.header-botom {
+	position: absolute;
+	top: 64px;
+	left: 80px;
+}
+.header-botom p{
+	color: #00e4ff;
+	font-size: 18px;
+	margin: 10px 0px;
+}
+
+/* login area  start */
+
+.login{
+	padding: 75px 45px;
+}
+.login-area{
+	background: url(../images/User-Login.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	float: right;
+	position: absolute;
+	top: 185px;
+	left: 857px;
+	margin: auto;
+}
+.login-info input{
+	background: rgba(12, 185, 201 ,.2);
+	border: none;
+	color: #15ebff;
+	margin: 10px 0px -7px 0px;
+	padding: 8px 15px;
+	width: 180px;
+}
+.login-area input::placeholder{
+	opacity: 1;
+	font-size: 13px;
+}
+.CheckBox label{
+	font-size: 11px;
+	color: #15ebff;
+}
+.CheckBox1 label a{
+    font-size: 11px;
+    color: #15ebff;
+	text-decoration: none;
+}
+.CheckBox{
+	margin: 10px 0px 0px 0px;
+}
+
+.CheckBox1{
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+}
+.submitf {
+    margin-top: 20px;
+}
+.submit input{
+	margin: 8px 0px 0px 0px;
+	background: #0cb9c9;
+	padding: 8px 86px;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	border: none;
+	font-size: 14px;
+}
+.submit input:hover{
+	background: #0bc8da;
+}
+
+
+/* Customize the label (the container) */
+.container {
+  display: inline-block;
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container1 {
+	display: inline-block;
+	position: relative;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  background-color: none;
+  border: 1px solid #15ebff;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: rgba(0,0,0,.5);
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #15ebff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 2.6px;
+  top: .7px;
+  width: 2px;
+  height: 5px;
+  border: solid rgba(0,0,0,.8);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* login area  end */
+
+
+/* time area  start */
+
+.time-date{
+	background: url(../images/Time.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #00e4ff;
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	top: 520px;
+	left: 68px;
+	padding: 8px;
+	width: 280px;
+	height: 100px;
+}
+.date{
+	font-size: 20px;
+	padding: 5px;
+}
+.time{
+	font-size: 36px;
+	position: absolute;
+	top: 45px;
+	left: 40px;
+	margin: auto;
+}
+
+
+
+/* time area  end */
+
+
+
+
+input:focus { outline: none; }
+
+
+
+/* input border Animations start*/
+
+.bar {
+	position: relative;
+	display: block;
+	width: 97%;
+	margin-top: 8px;
+	
+}
+
+.bar:before, .bar:after {
+	content: '';
+	height: 2px; 
+	width: 0;
+	bottom: 0px; 
+	position: absolute;
+	background: #0cb9c9;
+	transition: all 0.2s ease;
+}
+
+.bar:before { left: 50%; }
+
+.bar:after { right: 50%; }
+
+
+/* active */
+
+input:focus ~ .bar:before, input:focus ~ .bar:after { width: 50%; }
+
+
+/* Animations */
+
+@keyframes inputHighlighter {
+	from { background: #0cb9c9; }
+	to 	{ width: 0; background: transparent; }
+}
+
+
+/* input border Animations end*/
+
+
+/* student data style start*/
+.fpi h1 {
+    color: #0c7db7;
+    background-color: #020c29;
+    display: inline;
+    padding: 10px 50px;
+    font-size: 40px;
+    position: absolute;
+    left: 120px;
+    top: 10px;
+}
+.studentdata {
+    width: 400px;
+    float: right;
+    margin-right: 245px;
+    margin-top: 55px;
+    text-align: center;
+}
+.studentdata h1, h4 {
+	color:#00e4ff;
+}
+.studentdata h4 {
+	margin: 32px 0px;
+	margin-left: 80px;
+}
+.stable {
+	margin-top: 116px;
+}
+.disc h4 {
+    text-align: left;
+    font-size: 10px;
+	margin-top: 37px;
+	margin-left: 65px !important;
+}
+
+.simg {
+    width: 300px;
+    position: absolute;
+    top: 140px;
+    left: 190px;
+}
+.simg img {
+	width: 100%;
+}
+.button {
+	text-align: center;
+	margin-right: 129px;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+}
+.button input {
+    text-decoration: none;
+    background: #0cb9c9;
+    padding: 10px 30px;
+    color: #fff;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+.button a {
+	text-decoration: none;
+	background: #0cb9c9;
+	padding: 10px 30px;
+	color: #fff;
+	display: block;
+}
+/* student data style start*/
+
+/* admin panel style start*/
+
+.fpih h1 {
+    color: #0c7db7;
+    background-color: #020c29;
+    display: inline;
+    padding: 5px 20px;
+    font-size: 23px;
+    position: absolute;
+    left: 123px;
+    top: 0px;
+}
+.img {
+    width: 60px;
+    display: inline-block;
+    float: left;
+}
+.img img{
+	width: 100%;
+}
+.button2 {
+    text-align: center;
+    margin-right: 129px;
+    position: absolute;
+    bottom: 2%;
+    left: 55%;
+}
+.button2 a {
+	text-decoration: none;
+	background: #0cb9c9;
+	padding: 10px 30px;
+	color: #fff;
+	display: block;
+}
+/* admin panel style stop*/
+.search {
+    position: absolute;
+    top: 90px;
+    left: 33%;
+}
+form#searchform input {
+    background: #051c3c;
+    border: 2px solid #0F3D6B;
+    color: #fff;
+    height: 20px;
+    padding: 5px;
+    width: 365px;
+}
+form#searchform [type="submit"] {
+    -webkit-appearance: button;
+    height: 35px !important;
+    width: 70px !important;
+	cursor: pointer;
+}
+.h5 {
+    background-color: #0F1F36;
+    width: 340px;
+    display: inline-block;
+    margin: 8px 20px;
+}
+.h5 h5 {
+    margin: 1px 5px !important;
+    font-size: 13px;
+    color: #158499 !important;
+}
+.TD h4 {
+    margin: 0px 85px;
+    font-size: 15px;
+}
+
+.TD h5 {
+    margin: 6px 85px 6px 85px;
+    font-size: 13px;
+    color: #7B7F8A;
+}
+.team-info ul li {
+	list-style: none;
+	display: inline-block;
+
+}
+.team-info {
+    width: 303px;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: 394px;
+    left: 118px;
+}
+
+.all-team {
+    height: 150px;
+    width: 303px;
+    overflow: auto;
+}
+
+.all-team::-webkit-scrollbar {
+    display: block;
+    width: 10px;
+}
+.all-team::-webkit-scrollbar-track {
+    background: #152245;
+}
+    
+.all-team::-webkit-scrollbar-thumb {
+    background-color: #263D7B;
+    border-right: none;
+    border-left: none;
+}
+
+.all-team::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px; 
+}
+
+.all-team::-webkit-scrollbar-track-piece:start {
+    background: #18E0F9;
+    margin-top: 10px;
+}
+.team-info ul {
+    background-image: linear-gradient(#0F1831, #0A0D1E, #0F1831);
+    margin: 0px;
+    padding: 8px;
+}
+.team1 ul {
+    background: #071739;
+    margin: 0px;
+    padding: 8px;
+}
+.team ul {
+    background: #092A4D;
+    margin: 0px;
+    padding: 8px;
+}
+.students a{
+	text-decoration: none;
+}
+
+/* User edit style */
+
+.name2 input {
+    display: block;
+    background: transparent;
+    border: none;
+    text-align: center;
+    width: 100%;
+	color: #00e4ff;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.stable2 {
+	margin-top: 110px;
+}
+.stable2 input {
+    display: block;
+    background: transparent;
+    border: none;
+    text-align: center;
+    width: 100%;
+	color: #00e4ff;
+	font-weight: 600;
+	text-decoration: underline;
+}
+.disc2 h4 {
+    text-align: left;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-left: 65px !important;
+    float: left !important;
+}
+.disc2 input {
+    display: block;
+    background: transparent;
+    border: none;
+    text-align: center;
+    width: 100%;
+	color: #00e4ff;
+	font-weight: 600;
+	text-decoration: underline;
+}
+.disc2 input {
+    display: block;
+    float: left;
+    width: 130px;
+}
+.regst input {
+    width: 70px;
+}
+.scrool {
+    height: 380px;
+    width: 460px;
+    overflow: hidden auto;
+}
+.students {
+    position: absolute;
+    top: 22%;
+    left: 33%;
+}
+.student {
+    background: #091430;
+    width: 440px;
+    /* position: relative;
+    top: 150px;
+    left: 33%; */
+    border: 2px solid #0E225A;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.scrool::-webkit-scrollbar {
+    display: block;
+    width: 10px;
+}
+.scrool::-webkit-scrollbar-track {
+    background: #152245;
+}
+    
+.scrool::-webkit-scrollbar-thumb {
+    background-color: #263D7B;
+    border-right: none;
+    border-left: none;
+}
+
+.scrool::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px; 
+}
+
+.scrool::-webkit-scrollbar-track-piece:start {
+    background: #18E0F9;
+    margin-top: 10px;
+}
